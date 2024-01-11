@@ -1,0 +1,391 @@
+
+@media screen and (max-width: 600px){
+
+    body{
+        margin: 0;
+    }
+    
+     .logo{
+        height: fit-content;
+     }
+    .content{
+        
+        background-image: url(images/Rectangle\ 1.jpg);
+       background-position: center;
+        background-size: cover;
+        padding-left: 0px;
+        width: 430px;
+        margin: 0;
+        
+    }
+    .content h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40.2px;
+        padding-top: 40px;
+       
+        
+    }
+    
+    .content h2{
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 32.5px;
+        
+    }
+    .content p{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28.8px;
+    }
+    .content3 .row{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .img{
+        width: 310px;
+        height: 205.556px;
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+
+    .content4 .row2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .content5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: self-start;
+    padding: 20px;
+    margin: 55px;
+    height: 130px;
+    width: 1260px;
+    padding-top: 0;
+    }
+
+    .content6 .col3 .colum .icon .text{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .cont7 .content7{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+    .plast{
+        text-align: center;
+    }
+
+}
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 1259px;
+    height: 50px;
+    padding-top: 26px;
+    padding-left: 136px;
+}
+
+.nav-links{
+    display: flex;
+    margin-right: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    list-style: none;
+    width: 294px;
+    height: 19px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 2px;
+    padding-right: 15px;
+    position: relative;
+}
+.nav-links a:hover{
+    color: #E71800;
+}
+/*
+.nav-links .activ a{
+    color: #E71800;
+}
+*/
+.button1{
+    width: 143px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #E71800;
+    color: white;
+    border: none; 
+}
+/* content styles starts here */
+.button{
+    width: 153px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #E71800;
+    color: white;
+    border: none; 
+    top: 472px;
+    left: 87px;
+}
+
+.content{
+    padding-left: 90px;
+    text-align: left;
+    background-image: url(images/Rectangle\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 551px;
+    color: white;
+}
+
+.content h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57.6px;
+    padding-top: 40px;
+   
+    
+}
+
+.content h2{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57.6px;
+    
+}
+.content p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+
+/* second section of the page */
+
+.content2{
+    text-align: center;
+
+
+}
+ h3{
+    font-size: 32px;
+    line-height: 38.4px;
+    padding-bottom: 0;
+   
+}
+
+p{
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+hr{
+    width: 15%;
+    height: 5px;
+    background-color: #E71800;
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    
+}
+
+.active{
+    color: #E71800;
+}
+
+
+/* third section of the page */
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    padding: 87px;
+    width: 1263px;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+
+/* fourth section of the page */
+
+.content4 a{
+    text-decoration: none;
+}
+
+
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 90px;
+    padding-top: 0;
+    
+}
+
+
+.content5{
+    display: flex;
+    background-color: #FFBF14;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 55px;
+    height: 130px;
+    width: 1260px;
+    padding-top: 0;
+    
+    
+
+}
+h4{
+    font-size: 32px;
+    line-height: 1px;
+    padding: 0;
+}
+.cont5 p{
+   padding-top: 0;
+   margin-top: 0;
+}
+
+
+.content6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 150px;
+    padding: 80px;
+    justify-content: center;
+}
+h5{
+    font-size: 24px;
+}
+.colum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;   
+}
+
+.icon{
+    margin-right: 10px;
+}
+.name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    width: 621px;
+   padding-bottom: 5px;
+   gap: 20px;
+   border: 1px;
+   border-radius: 8px;
+}
+.input{
+    height: 50px;
+}
+.phone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 621px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+#message{
+    width: 621px;
+    height: 190px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.cont7{
+    background-color: #000000;
+
+}
+
+
+.content7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+    color: #ffff;
+    padding: 20px;
+}
+.photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.photo a{
+    filter: brightness(80%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.photo a:hover{
+    filter: brightness(100%);
+}
+.image{
+    margin-right: 10px;
+}
+
+.quick-links{
+    list-style: none;
+}
+.quick-links a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+  
+}
+.quick-links a:hover{
+    color: #E71800;
+}
+.email{
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #E5E5E5
+}
+.plast{
+   text-align: center;
+   margin-left: 100px;
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   color: white;
+   font-size: 9px;
+   
+}
+button:hover{
+    background-color: #0c4802;
+}
